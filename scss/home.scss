@@ -1,0 +1,69 @@
+main{
+    background-color:rgb(179, 42, 42) ;
+       
+    #contacto{
+        background-color: aquamarine;
+        text-align: center;
+        #nombre, #numero, #direccion{
+            margin: 1rem;
+        }
+    }
+}
+
+.saludoCliente{
+    font-size: 1rem;
+    background: rgb(64, 167, 38);
+    text-align: center;
+  }
+
+  .card {
+    width: 24%;
+    margin: 0.1rem;
+    border: 0.5rem solid #776f6f;
+    align-items: center;
+
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+} 
+  
+  .carro {
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  .car-img{
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+  }
+  
+  .product-details {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.2rem;
+    
+  }
+
+  .total-carrito-fin{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+  }
+.botones{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+}

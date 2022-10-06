@@ -1,0 +1,107 @@
+body {
+    div{
+        header{
+            display: grid;
+            grid-template-rows: auto auto;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-areas: 
+            "logo redes carrito"
+            "nav nav nav";
+            padding: 10px;
+            background-color: rgb(74, 77, 77);
+            
+            #logo{
+                grid-area: logo;
+                display:flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-content: flex-start;    
+                justify-content: center;
+                align-items: center;
+                padding: 1 rem;
+                img{
+                    border-radius: 50%;
+                    margin: 1rem;
+                }
+                h1{
+                    font-style: italic;
+                    font-weight: normal;
+                    font-size: 1.3rem;
+                    font-family: Impact, serif;
+                    color: #0f0707;
+                    
+                    
+                }}
+                
+            
+            #redes{
+                grid-area: redes;
+                padding: 1rem;
+                display:flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;                
+                a{
+                    img{
+                        border-radius: 50%;
+                    }
+                }
+            }
+            #carrito{
+                grid-area: carrito;
+                display:flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-content: flex-end;    
+                justify-content: center;
+                align-items: center;
+                padding: 1 rem;
+                img{
+                    margin: 1rem;
+                }                
+                    
+                }
+            nav{
+                border: 0.5rem solid black ;
+                background-color: rgb(36, 82, 182);
+                grid-area: nav;
+                align-items: center;
+                display: flex;
+                justify-content: space-around;
+                ul{
+                    display:flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    li{
+                        list-style-type: none;
+                        text-decoration:none;
+                        font-style: italic;
+                        font-weight: bold;
+                        font-size: 1.3rem;
+                        font-family: Arial, Helvetica, sans-serif;
+                        padding: 1rem;
+                        a:link, a:visited{
+                            list-style-type: none ;
+                            text-decoration: none ;
+                            color: rgb(255, 255, 255);
+                        }
+                        a:hover{
+                            list-style-type: none ;
+                            text-decoration: none ;
+                            color: rgb(238, 22, 22);
+                        } 
+                        a:active{
+                            list-style-type: none ;
+                            text-decoration: none ;
+                            color: rgb(17, 20, 209);
+                        }
+                    }
+                }
+            }    
+        }
+    }}
+
+    

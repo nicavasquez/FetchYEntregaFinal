@@ -1,0 +1,124 @@
+
+[
+    {
+        "id": 1,
+        "nombre": "Pizza Muzzarella",
+        "precio": 1000,
+        "imagen": "./images/pizza.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Pizza Especial",
+        "precio": 1200,
+        "imagen": "./images/pizza.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Pizza Fugazzeta",
+        "precio": 1300,
+        "imagen": "./images/pizza.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Pizza Napoletana",
+        "precio": 1400,
+        "imagen": "./images/pizza.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Empanada Arabe",
+        "precio": 200,
+        "imagen": "./images/empanadas.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Empanada Jamon y Queso",
+        "precio": 200,
+        "imagen": "./images/empanadas.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Empanada Criolla",
+        "precio": 200,
+        "imagen": "./images/empanadas.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Empanada Vegan",
+        "precio": 200,
+        "imagen": "./images/empanadas.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Hamburguesa Classic",
+        "precio": 800,
+        "imagen": "./images/hamburguer classic.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Hamburguesa Doble Cheese & Bacon",
+        "precio": 1000,
+        "imagen": "./images/hamburguer classic.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Hamburguesa Triple Cheese & Bacon",
+        "precio": 1400,
+        "imagen": "./images/hamburguer classic.png"
+    },
+    {
+        "id": 12,
+        "nombre": "Hamburguesa Vegan",
+        "precio": 1300,
+        "imagen": "./images/hamburguer classic.png"
+    },
+    {
+        "id": 13,
+        "nombre": "Lomito Especial con papas" ,
+        "precio": 1500,
+        "imagen": "./images/lomito.png"
+    },
+    {
+        "id": 14,
+        "nombre": "Lomito Mex con papas",
+        "precio": 1700,
+        "imagen": "./images/lomito.png"
+    },
+    {
+        "id": 15,
+        "nombre": "Lomitos American con papas",
+        "precio": 1900,
+        "imagen": "./images/lomito.png"
+    },
+    {
+        "id": 16,
+        "nombre": "Lomito Vegan",
+        "precio": 1500,
+        "imagen": "./images/lomito.png"
+    },
+    {
+        "id": 17,
+        "nombre": "Sandwich de Milanesa Classic con papas",
+        "precio": 1100,
+        "imagen": "./images/sand milanesa.png"
+    },
+    {
+        "id": 18,
+        "nombre": "Sandwich de Milanesa Mex con papas",
+        "precio": 1400,
+        "imagen": "./images/sand milanesa.png"
+    },
+    {
+        "id": 19,
+        "nombre": "Sandwich de Milanesa American con papas",
+        "precio": 1900,
+        "imagen": "./images/sand milanesa.png"
+    },
+    {
+        "id": 20,
+        "nombre": "Sandwich de Milanesa Berenjena con papas",
+        "precio": 1600,
+        "imagen": "./images/sand milanesa.png"
+    }
+
+]
